@@ -1,4 +1,4 @@
-# VSCode_Git_Advice
+# VSCode Git Advice
 VSCodeとGitに対するアドバイス
 
 ### VSCodeのインデンテーション
