@@ -24,7 +24,7 @@ VSCodeでファイル末尾に自動的に改行を挿入することの設定�
 https://qiita.com/kazuhito_nakayama/items/14c16f1b624ffd2f383c
 
 ### Gitの「」問題について
-![DC_2023060606](https://github.com/raymondyeung2022/VSCode-Git-Advice/assets/119655633/d71f127e-7551-4e4a-974d-2c90fa7416a6)
+![DC_2023060801](https://github.com/raymondyeung2022/VSCode-Git-Advice/assets/119655633/5e058277-1dea-4fff-b518-6e7055e47657)
 
 ブランチ名に日本語があれば、上記のスクリーンショットの問題が発生します。
 
