@@ -10,6 +10,8 @@ VSCodeでインデントを設定する方法:
 https://codelikes.com/setting-vscode-indent-tab-spaces/
 
 ### Gitの「No newline at end of file」問題について
+![DC_2023060802](https://github.com/raymondyeung2022/VSCode-Git-Advice/assets/119655633/7259f19e-831e-4953-9696-c73d40dc9ab4)
+
 https://docs.github.com/ja/get-started/getting-started-with-git/configuring-git-to-handle-line-endings?platform=windows より:
 
 「<b>キーボードで return を押すたびに、行末と呼ばれる目に見えない文字が挿入されています。 行終端の処理は、オペレーティングシステムによって異なります。
@@ -20,3 +22,10 @@ Git と GitHub でコラボレートしているときに、あなたが Windows
 
 VSCodeでファイル末尾に自動的に改行を挿入することの設定方法:
 https://qiita.com/kazuhito_nakayama/items/14c16f1b624ffd2f383c
+
+### Gitの「」問題について
+![DC_2023060606](https://github.com/raymondyeung2022/VSCode-Git-Advice/assets/119655633/d71f127e-7551-4e4a-974d-2c90fa7416a6)
+
+ブランチ名に日本語があれば、上記のスクリーンショットの問題が発生します。
+
+大きな問題ではありませんが、この問題を避けたいなら日本語を入れない方がいいです。
