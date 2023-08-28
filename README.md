@@ -20,11 +20,9 @@ Git と GitHub でコラボレートしているときに、あなたが Windows
 
 異なるオペレーティングシステムを使用しているユーザとも効果的にコラボレーションができるように、自動的に行終端を処理するよう Git を設定することができます。</b>」
 
-これは元々Gitではなく、C言語における標準です:
+これは元々Gitではなく、C言語における標準です。
 
-・https://qiita.com/kazuhito_nakayama/items/14c16f1b624ffd2f383c
-
-・https://thoughtbot.com/blog/no-newline-at-end-of-file (英語)
+https://thoughtbot.com/blog/no-newline-at-end-of-file (英語)
 
 上記の英語の文章に「History Lesson」のところ:
 
