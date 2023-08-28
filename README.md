@@ -1,5 +1,5 @@
 # VSCode Git Advice
-ドリームキャリアの研修グループに対するVSCodeとGit使用アドバイス
+ドリームキャリアのエンジニアたちへのVSCodeとGit使用アドバイス
 
 ### VSCodeのインデンテーション
 インデントを整えることで、コードの可読性が向上し、バグなどを減らすことができます。
@@ -19,6 +19,17 @@ https://docs.github.com/ja/get-started/getting-started-with-git/configuring-git-
 Git と GitHub でコラボレートしているときに、あなたが Windows マシンで作業をしていて、コラボレーターが macOS で変更を加えた場合、Git により予想外の結果が生じることがあります。
 
 異なるオペレーティングシステムを使用しているユーザとも効果的にコラボレーションができるように、自動的に行終端を処理するよう Git を設定することができます。</b>」
+
+これは元々Gitではなく、C言語における標準です:
+https://qiita.com/kazuhito_nakayama/items/14c16f1b624ffd2f383c
+https://thoughtbot.com/blog/no-newline-at-end-of-file (英語)
+
+上記の英語の文章に「History Lesson」のところ:
+```So, it turns out that, according to POSIX, every text file (including Ruby and JavaScript source files) should end with a \n, or “newline” (not “a new line”) character. This acts as the eol, or the “end of line” character. It is a line “terminator”.```
+\nまたは改行が「一行を終わらせるキャラクター」という意味です。
+POSIXとは、https://e-words.jp/w/POSIX.html#google_vignetteより、
+「主にUNIX系OSに共通する機能などについて、プログラムからの呼び出し方法などの標準を定めた規格。」です。
+
 
 VSCodeでファイル末尾に自動的に改行を挿入することの設定方法:
 https://qiita.com/kazuhito_nakayama/items/14c16f1b624ffd2f383c
