@@ -22,7 +22,8 @@ Git と GitHub でコラボレートしているときに、あなたが Windows
 
 これは元々Gitではなく、C言語における標準です。
 
-https://thoughtbot.com/blog/no-newline-at-end-of-file (英語)
+参考リンク:
+1. https://thoughtbot.com/blog/no-newline-at-end-of-file (英語)
 
 上記の英語の文章に「History Lesson」のところ:
 
@@ -32,6 +33,12 @@ https://thoughtbot.com/blog/no-newline-at-end-of-file (英語)
 POSIXとは、https://e-words.jp/w/POSIX.html#google_vignette より、
 「主にUNIX系OSに共通する機能などについて、プログラムからの呼び出し方法などの標準を定めた規格。」です。
 
+2. https://stackoverflow.com/a/74062169 (英語)
+
+```The reason is simple. One of the main purpose of git diff is display changes, unambiguously so that it can be used as a input to git apply. To do this, Git needs to know what it is supposed to do with newlines when applying a diff. Should it remove, keep or change them?```
+
+「git diff」を実行する時、Gitが改行に対して、削除か、保留か、あるいは変更か、
+明確に知りたいので、ファイルの最後に改行を付けるのが必要だからです。
 
 VSCodeでファイル末尾に自動的に改行を挿入することの設定方法:
 https://qiita.com/kazuhito_nakayama/items/14c16f1b624ffd2f383c
