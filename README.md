@@ -51,3 +51,7 @@ https://qiita.com/kazuhito_nakayama/items/14c16f1b624ffd2f383c
 恐らく本来Gitでブランチを作成する時、Unicodeの入力が想定していないんだろうと思います。
 
 大きな問題ではありませんが、この問題を避けたいなら日本語を入れない方がいいです。
+
+参考:
+ブランチ名標準的な命名規則(英語):
+https://git-scm.com/docs/git-check-ref-format
